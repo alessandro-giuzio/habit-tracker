@@ -11,6 +11,7 @@ A modern, interactive habit tracking application built with Astro, Vue.js, and T
 - **Local Storage**: All data is saved locally in your browser
 - **Dark Mode Ready**: Beautiful gradient backgrounds with dark mode support
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **📱 PWA Support**: Install as a standalone app on any device!
 
 ## 🚀 Tech Stack
 
@@ -23,7 +24,7 @@ A modern, interactive habit tracking application built with Astro, Vue.js, and T
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or pnpm
 
 ### Installation
@@ -53,6 +54,16 @@ npm run build
 npm run preview
 ```
 
+## 📱 PWA - Install as Mobile App
+
+This app is a **Progressive Web App (PWA)**! Users can install it directly from their browser:
+
+- **iOS**: Safari → Share → Add to Home Screen
+- **Android**: Chrome → Menu → Install app
+- **Desktop**: Look for install icon in address bar
+
+See [PWA-SETUP.md](./PWA-SETUP.md) for complete installation and deployment guide.
+
 ## 📝 Usage
 
 1. **Add a Habit**: Enter a habit name and choose a color, then click "Add"
@@ -64,6 +75,7 @@ npm run preview
 ## 🎨 Customization
 
 The app uses TailwindCSS, so you can easily customize:
+
 - Colors in `src/components/HabitTracker.vue`
 - Layout in `src/layouts/Layout.astro`
 - Global styles in `src/styles/global.css`
